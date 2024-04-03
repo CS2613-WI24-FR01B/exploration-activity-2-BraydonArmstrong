@@ -3498,7 +3498,7 @@ function draw()
 								needed /= 3 * enemy[enemyIndex].health;
 								needed = max(1, min(255, needed));
 								needed = Math.floor(needed);
-								if(trainer[currTrainer].name == "Galenado")
+								if(trainers[currTrainer].name == "Galenado")
 								{
 									trainers[currTrainer].beat = true;
 									trainers[currTrainer].x -= 1000;
