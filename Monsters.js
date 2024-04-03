@@ -3500,8 +3500,8 @@ function draw()
 								needed = Math.floor(needed);
 								if(trainer[currTrainer].name == "Galenado")
 								{
-									trainer[currTrainer].beat = true;
-									trainer[currTrainer].x -= 1000;
+									trainers[currTrainer].beat = true;
+									trainers[currTrainer].x -= 1000;
 								}
 								if(catchNum > needed)
 								{
