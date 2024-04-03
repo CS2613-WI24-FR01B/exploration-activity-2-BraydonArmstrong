@@ -2581,7 +2581,7 @@ function draw()
 							}
 							if(i == 26)
 							{
-								if(!haskey)
+								if(!hasKey)
 								{
 									currText.push("This mansion is locked, you should head into the next town to find the key");
 								}else
@@ -3973,9 +3973,9 @@ function draw()
 				text("ATK " + summary.attack, 155, 440);
 				text("SPATK " + summary.spattack, 155, 455);
 				text("XP to next level: " + (summary.xp - summary.currxp), 155, 470)
-				text("SPD " + summary.speed, 260, 425);
-				text("DEF " + summary.defense, 260, 440);
-				text("SPDEF " + summary.spdefense, 260, 455);
+				text("SPD " + summary.speed, 275, 425);
+				text("DEF " + summary.defense, 275, 440);
+				text("SPDEF " + summary.spdefense, 275, 455);
 			}
 		}
 		if ((keyIsDown(69) || e) && !holding)
