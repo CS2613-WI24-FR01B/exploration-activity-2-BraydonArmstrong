@@ -2189,7 +2189,7 @@ function draw()
 		
 		if((buttonsHit >= 3 || doorOpen) && !toggle)
 		{
-			spawnListLevel = [31,26,22,28,25];
+			spawnListLevel = [29,25,18,26,22];
 			doorOpen = true;
 			toggle = true;
 			trainers[24].x = 45*49;
