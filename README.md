@@ -15,7 +15,7 @@ Once run you can start the game as it will open in a browser being hosted locall
 
 If you cannot get it running there you can go to my [Github Page](https://braydonarmstrong.github.io)
 
-This page also supporots mobile browsers, although the controls are a little annooying to use on Apple devices on android it runs quite well.
+This page also supports mobile browsers, although the controls are a little annooying to use on Apple devices as holding the movement buttons causes a selection to appear, on Android it runs quite well.
 
 # 3. What purpose does your program serve?
 
